@@ -1,0 +1,44 @@
+#time {
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+    background-image: url(https://beolin.club/uploads/posts/2022-09/1664448268_2-beolin-club-p-chasi-risunok-s-minutami-instagram-3.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#sec {
+    position: relative;
+    top: 24px;
+    left: 146px;
+    display: inline-block;
+    width: 10px;
+    height: 110px;
+    background-color: blue;
+    animation: second 1s linear infinite;
+    transform-origin: 50% 100%;
+}
+
+@keyframes second {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#min {
+    position: relative;
+    display: inline-block;
+    top: 24px;
+    left: 131px;
+    width: 12px;
+    height: 80px;
+    background-color: brown;
+    animation: second 60s linear infinite;
+    transform-origin: 50% 100%;
+}
+
+@keyframes minute {
+    100% {
+        transform: rotate(360deg);
+    }
+}
